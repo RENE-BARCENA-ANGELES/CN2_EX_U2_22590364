@@ -10,7 +10,7 @@ services:
         parallelism: 1
         delay: 10s
     ports:
-      - "5000:5000"
+      - "5040:5000"
     environment:
       # Tu conexión a Render
       DATABASE_URL: "postgresql://cn2_prac_examen_u2_user:n1NNJOcN270ES3iDIFiialWQPjo0bLUk@dpg-dbd9v4ss728c73b67ol0-a.oregon-postgres.render.com/cn2_prac_examen_u2"
